@@ -152,5 +152,118 @@ export const Icons = {
       <circle cx="12" cy="12" r="10" />
       <path d="M12 16v-4M12 8h.01" />
     </svg>
+  ),
+  boat: ({ className }: { className?: string }) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      className={cn("size-4", className)}
+    >
+      <path d="M3 18h18l-9-15z" />
+      <path d="M3 18c0 2 1.5 3 3 3s3-1 3-3" />
+      <path d="M15 18c0 2 1.5 3 3 3s3-1 3-3" />
+    </svg>
+  ),
+  supabase: ({ className }: { className?: string }) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      className={cn("size-4", className)}
+    >
+      <path d="M12 2L2 7v10l10 5 10-5V7L12 2z" />
+      <path d="M12 12L2 7" />
+      <path d="M12 12l10-5" />
+      <path d="M12 12v10" />
+    </svg>
+  ),
+  figma: ({ className }: { className?: string }) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      className={cn("size-4", className)}
+    >
+      <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z" />
+      <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z" />
+      <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z" />
+      <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z" />
+      <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z" />
+    </svg>
+  ),
+  workos: ({ className }: { className?: string }) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      className={cn("size-4", className)}
+    >
+      <circle cx="12" cy="12" r="10" />
+      <path d="M8 12h8" />
+      <path d="M12 8v8" />
+    </svg>
+  ),
+  runwayml: ({ className }: { className?: string }) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      className={cn("size-4", className)}
+    >
+      <path d="M12 2L2 7v10l10 5 10-5V7L12 2z" />
+      <path d="M12 12L2 7" />
+      <path d="M12 12l10-5" />
+    </svg>
+  ),
+  gemini: ({ className }: { className?: string }) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      className={cn("size-4", className)}
+    >
+      <circle cx="8" cy="12" r="6" />
+      <circle cx="16" cy="12" r="6" />
+    </svg>
+  ),
+  vercel: ({ className }: { className?: string }) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={cn("size-4", className)}
+    >
+      <path d="M12 2L2 19.7778H22L12 2Z" />
+    </svg>
+  ),
+  replit: ({ className }: { className?: string }) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      className={cn("size-4", className)}
+    >
+      <circle cx="12" cy="12" r="10" />
+      <path d="M12 8v8M8 12h8" />
+    </svg>
+  ),
+  posthog: ({ className }: { className?: string }) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      className={cn("size-4", className)}
+    >
+      <path d="M12 2L2 7v10l10 5 10-5V7L12 2z" />
+      <path d="M8 10h8M8 14h8" />
+    </svg>
   )
 };
